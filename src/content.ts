@@ -1,5 +1,4 @@
-import "@fontsource/mukta/600.css";
-import "@fontsource/mukta/800.css";
+import "@fontsource/baloo-2/800.css";
 import type { Site } from "./lib";
 
 export const SITE: Site = {
@@ -18,61 +17,89 @@ export const SITE: Site = {
   "lon": 76.9974212,
   "hours": [
     [
-      16,
-      22
+      [
+        16,
+        22
+      ]
     ],
     [
-      5,
-      12,
-      16,
-      22
+      [
+        5,
+        12
+      ],
+      [
+        16,
+        22
+      ]
     ],
     [
-      5,
-      12,
-      16,
-      22
+      [
+        5,
+        12
+      ],
+      [
+        16,
+        22
+      ]
     ],
     [
-      5,
-      12,
-      16,
-      22
+      [
+        5,
+        12
+      ],
+      [
+        16,
+        22
+      ]
     ],
     [
-      5,
-      12,
-      16,
-      22
+      [
+        5,
+        12
+      ],
+      [
+        16,
+        22
+      ]
     ],
     [
-      5,
-      12,
-      16,
-      22
+      [
+        5,
+        12
+      ],
+      [
+        16,
+        22
+      ]
     ],
     [
-      5,
-      12,
-      16,
-      22
+      [
+        5,
+        12
+      ],
+      [
+        16,
+        22
+      ]
     ]
   ],
   "theme": {
-    "dark": false,
-    "bg": "#ffffff",
-    "bg2": "#f4f4f2",
-    "panel": "#ffffff",
-    "ink": "#111111",
-    "ink2": "#4b4b4b",
-    "ink3": "#858585",
-    "line": "#e4e4e0",
-    "onAccent": "#ffffff",
-    "display": "Mukta",
+    "dark": true,
+    "bg": "#0f070a",
+    "bg2": "#171013",
+    "panel": "#1d1619",
+    "ink": "#f6ebe9",
+    "ink2": "#c3b9b8",
+    "ink3": "#877e7e",
+    "line": "#292225",
+    "accent": "#ff2f55",
+    "onAccent": "#29080e",
+    "display": "Baloo 2",
     "weight": 800,
-    "upper": false,
-    "accent": "#0e7490"
+    "upper": false
   },
+  "scene": "dumbbells",
+  "align": "left",
   "hero": {
     "title": [
       {
@@ -88,13 +115,7 @@ export const SITE: Site = {
       "en": "4.7 on Google from 295 reviews. Members write about two floors run by Mr. Hariom, trainers like Saurav, Sneha and Manju, and extra classes on alternate days.",
       "hi": "गूगल पर 295 रिव्यू से 4.7। मेंबर श्री हरिओम की दो मंज़िला जिम, सौरव, स्नेहा और मंजू जैसे ट्रेनरों और हर दूसरे दिन की एक्स्ट्रा क्लास के बारे में लिखते हैं।"
     },
-    "fallback": "/img/p3.jpg",
-    "slides": [
-      "/img/p3.jpg",
-      "/img/p5.jpg",
-      "/img/p1.jpg",
-      "/img/p7.jpg"
-    ]
+    "fallback": "/img/p3.jpg"
   },
   "marquee": [
     "Strength",
@@ -353,5 +374,40 @@ export const SITE: Site = {
       "en": "Hi Fitness Hero, I'd like to enquire:",
       "hi": "नमस्ते फ़िटनेस हीरो, मुझे जानकारी चाहिए:"
     }
-  }
+  },
+  "story": [
+    {
+      "kicker": {
+        "en": "For everyone",
+        "hi": "सबके लिए"
+      },
+      "title": {
+        "en": "For men and women.",
+        "hi": "पुरुषों और महिलाओं, दोनों के लिए।"
+      },
+      "quote": "A perfect fitness destination for both men and women—highly recommended!"
+    },
+    {
+      "kicker": {
+        "en": "Trainers",
+        "hi": "ट्रेनर"
+      },
+      "title": {
+        "en": "Manju really knows her stuff.",
+        "hi": "मंजू अपना काम बख़ूबी जानती हैं।"
+      },
+      "quote": "Trainer Manju is awesome — super encouraging and really knows her stuff."
+    },
+    {
+      "kicker": {
+        "en": "Extras",
+        "hi": "सुविधाएं"
+      },
+      "title": {
+        "en": "Lockers, parking, Sunday evenings.",
+        "hi": "लॉकर, पार्किंग, रविवार शाम भी।"
+      },
+      "quote": "The gym has personal lockers, parking space, and even stays open on Sunday evenings."
+    }
+  ]
 };
